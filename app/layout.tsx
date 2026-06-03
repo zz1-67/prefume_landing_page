@@ -18,27 +18,13 @@ const tajawal = Tajawal({
 
 export const metadata: Metadata = {
   title: 'عطر العود الملكي | Royal Oud',
-  description: 'اكتشف فخامة العود الملكي - عطر استثنائي يجمع بين الأصالة والرفاهية. مكونات طبيعية نادرة وثبات يدوم طوال اليوم.',
-  generator: 'v0.app',
-  keywords: ['عود', 'عطر', 'عطور', 'فاخرة', 'oud', 'perfume', 'luxury', 'royal'],
+  description: 'عطر استثنائي يجمع بين الأصالة والرفاهية. مكونات طبيعية نادرة وثبات يدوم طوال اليوم',
+  keywords: ['عطر', 'عود', 'عطور', 'فاخرة', 'oud', 'perfume', 'luxury', 'royal'],
   icons: {
-    icon: [
-      {
-        url: '/icon-light-32x32.png',
-        media: '(prefers-color-scheme: light)',
-      },
-      {
-        url: '/icon-dark-32x32.png',
-        media: '(prefers-color-scheme: dark)',
-      },
-      {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
-      },
-    ],
+    icon: '/icon.png',
     apple: '/apple-icon.png',
   },
-}
+};
 
 export const viewport: Viewport = {
   themeColor: '#1A1A1A',
