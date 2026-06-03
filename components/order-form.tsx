@@ -206,7 +206,7 @@ export function OrderForm() {
             <button
               type="submit"
               disabled={isSubmitting}
-              className="w-full flex items-center justify-center gap-3 py-4 px-6 bg-[#25D366] hover:bg-[#20BD5A] text-white font-semibold text-lg rounded-xl transition-all duration-300 hover:scale-[1.02] cursor-pointer disabled:opacity-70 disabled:cursor-not-allowed disabled:hover:scale-100"
+              className="w-full flex items-center justify-center gap-3 py-4 px-6 bg-gold hover:bg-gold-light text-charcoal font-semibold text-lg rounded-xl transition-all duration-300 hover:scale-[1.02] cursor-pointer disabled:opacity-70 disabled:cursor-not-allowed disabled:hover:scale-100"
             >
               {isSubmitting ? (
                 <Loader2 className="w-6 h-6 animate-spin" />
